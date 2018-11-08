@@ -1,17 +1,39 @@
 import React from 'react';
-import NavHead from './navHead';
 
 class NavMenu extends React.Component {
+    constructor (props){
+        super(props);
+
+    var menus = ['Home','স্বাস্থ্য টিপ','ই-স্টোর', 'খবর','ই-ডাক্তার','ই-লাইব্রেরী','ড্রাগ ইন্ডেক্স','ব্লগ','ডাক্তারদের জন্য'];
+
+    }
     render() {
         return ( 
             <div>
-                <div className="Nav_area">
-                    <div id="peelback">
-                        <a href="#"><img src = "images/top_peel_bangla.png" border = "0" style = {{"width":"130px","height":"130px","zIndex":"9001","position":"absolute","right":"0px","top":"1px"}} /></a> 
-                        <div style = {{"width":"125px","height":"125px","overflow":"hidden","position":"absolute","right":"0px","top":"0px","zIndex":"9000","background":"url(&quot;/img/edoctor/top_bg_bangla.jpg&quot;) right top no-repeat"}} > </div> 
-                    </div>
-                    <NavHead />
-                </div>
+                <nav className="main-menu">
+                    <ul style={{"zIndex":"100000"}}>
+                        <li className="home active"><a href="/">Home</a></li>
+                        <li className=""><a href="/">স্বাস্থ্য টিপ</a></li>
+                        <li className=""><a href="/">ই-স্টোর</a></li> 
+                        <li className=""><a href="/">খবর</a></li> 
+                        <li className=""><a  href="/">ই-ডাক্তার</a></li>      
+                        <li className=""><a href="/">ই-লাইব্রেরী</a></li>
+                        <li className=""><a href="/">AAA for Nutrition</a></li>
+                        <li className=""><a href="/">ড্রাগ ইন্ডেক্স</a></li>         
+                        <li className=""><a href="/">ব্লগ</a></li>
+                        <li className=""><a href="/">ব্লগ</a></li>
+                        <li className=""><a href="/">ডাক্তারদের জন্য</a>
+                        <div>
+                            <ul>
+                            <li><div className="item-title"><a href="/">উচ্চতর গবেষণার তথ্য</a></div></li> 
+                            </ul>
+                            </div>
+                        </li>
+                        <li style={{"float":"right"}}>
+                            <div className="portal-login"><a href="/">সাইনআপ অথবা সাইনইন</a></div>
+                        </li>        
+                    </ul>
+                </nav>
             </div>
         );
     }

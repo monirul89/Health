@@ -1,0 +1,182 @@
+/****/
+.singlepost{background:none repeat scroll 0 0 #FFFFFF;margin-bottom:20px;margin-left:16px;min-height:324px;padding:15px;text-align:center;width:210px;float:left;position:relative;}
+.singlepost:before,.singlepost:after{z-index:-1;position:absolute;content: " ";bottom:14px;left:10px;width:50%;top:80%;background:#777;-webkit-box-shadow:0 15px 10px #777;-moz-box-shadow:0 15px 10px #777;box-shadow:0 15px 10px #777;-webkit-transform:rotate(-5deg);-moz-transform:rotate(-5deg);-o-transform:rotate(-5deg);-ms-transform:rotate(-5deg);transform:rotate(-5deg);border:1px solid red;}
+.singlepost:after{-webkit-transform:rotate(5deg);-moz-transform:rotate(5deg);-o-transform:rotate(5deg);-ms-transform:rotate(5deg);transform:rotate(5deg);right:10px;left:auto;border:1px solid yellow;}
+.singlepost:hover{box-shadow:0 1px 3px rgba(34,25,25,1);-moz-box-shadow:0 1px 3px rgba(34,25,25,1);-webkit-box-shadow:0 1px 3px rgba(34,25,25,1);}
+.singlepost .by{color:#666666;}
+.singlepost .title{text-transform:uppercase;padding-bottom:10px;color:#D93E39;font-size:1.2em;font-weight:bold;}
+.singlepost .tag{border-bottom:1px solid #EEEEEE;padding-bottom:10px;}
+.singlepost p{color:#444444;line-height:1.8;margin-bottom:10px;text-align:left;}
+.singlepost .reading{border-top:1px solid #EEEEEE;padding-top:12px;}
+.singlepost .reading .iconHeart{color:#999999;float:right;margin:5px;}
+/***/
+/***************/
+.extra-option{color:#666666;font-size:11px;}
+.estoreBlock{position:relative;}
+.blockimg{background:none repeat scroll 0 0 #FFFFFF;float:left;font-size:12px;margin:8px;min-height:200px;padding:15px;text-align:center;position:relative;}
+.blockimg:before,.blockimg:after{z-index:-1;position:absolute;content: " ";bottom:14px;left:10px;width:50%;top:80%;background:#777;-webkit-box-shadow:0 15px 10px #777;-moz-box-shadow:0 15px 10px #777;box-shadow:0 15px 10px #777;-webkit-transform:rotate(-7deg);-moz-transform:rotate(-7deg);-o-transform:rotate(-7deg);-ms-transform:rotate(-7deg);transform:rotate(-7deg);border:1px solid red;}
+.blockimg:after{-webkit-transform:rotate(7deg);-moz-transform:rotate(7deg);-o-transform:rotate(7deg);-ms-transform:rotate(7deg);transform:rotate(7deg);right:10px;left:auto;border:1px solid yellow;}
+.blockimg:hover{box-shadow:0 1px 3px rgba(34,25,25,1);-moz-box-shadow:0 1px 3px rgba(34,25,25,1);-webkit-box-shadow:0 1px 3px rgba(34,25,25,1);}
+.blockimg img{background:none repeat scroll 0 0 #CCCCCC;max-width:100%;text-align:center;}
+.blockimg strong{border-bottom:1px solid #CCCCCC;display:block;margin:10px 0;padding:0 0 5px;}
+/****************/
+p{margin-bottom:0px;line-height:19px;}
+.flexslider{background:none;}
+.header{height:146px;display:block;overflow:hidden;}
+.header-left{float:left;width:173px;margin:3px 0px 0px 0px;}
+.header-right{float:right;width:728px;height:90px;margin:5px 0px 0px 0px;}
+.header-top{height:100px;display:block;overflow:hidden;margin-bottom:7px;margin-top:3px;}
+.header-bottom{height:34px;background:url(../../img/hpnewhome/main-menu-repeat.jpg) repeat-x;}
+.toppopuplink{color:#333333;height:30px;padding:2px;text-decoration:underline;width:48px;}/* unvisited link */
+.toppopuplink:hover{color:#333333;height:30px;padding:2px;text-decoration:none;width:48px;}/* unvisited link */
+.tophombarlink{display:inline-block;outline:none;cursor:pointer;text-align:center;text-decoration:none;font:bold 14px/100% Arial,Helvetica,sans-serif;padding:5px;box-shadow:0 1px 2px rgba(0,0,0,.2);color:#CF000C;}
+.tophombarlink:hover{display:inline-block;outline:none;cursor:pointer;text-align:center;text-decoration:none;font:14px/100% Arial,Helvetica,sans-serif;padding:5px;box-shadow:0 1px 2px rgba(0,0,0,.2);color:#F29F9B;font-weight:bold;}/* unvisited link */
+.highlightlink{background-color:#9E0307;box-shadow:#888888 1px 1px 1px;color:#FFFFFF;height:30px;padding:5px;width:50px;}/* unvisited link */
+.login{float:left;/*width:225px;background:url(../images/login-icon.png) left no-repeat;*/padding-left:15px;line-height:28px;}
+.search-input{background:url(../../img/hpnewhome/search-bg.jpg) repeat-x;width:550px;height:24px;border:1px solid #c3c3c3;vertical-align:middle;margin-right:4px;line-height:24px;padding-left:3px;color:#999999;}
+.search-btn{background:url(../../img/hpnewhome/search-btn.jpg) no-repeat;height:26px;width:60px;vertical-align:middle;}
+.topnav{width:95%;padding:30px 28px 25px 0;}
+ul.topnav{padding:0;margin:0;font-size:1em;line-height:0.5em;list-style:none;}
+ul.topnav li{margin:8px 0px 0px 0px;}
+ul.topnav li a{background-image:url( "../../img/store/catagory_arrow.PNG ");font-weight:bold;background-repeat:no-repeat;background-position:-1px 6px;line-height:18px;font-size:12px;color:#202020;display:block;text-decoration:none;padding-left:15px;}
+ul.topnav li a:hover{font-weight:bold;text-decoration:underline;}
+ul.topnav ul{margin:0;padding:0;display:none;}
+ul.topnav ul li{margin:4px 0 0;padding:0;clear:both;}
+
+#cssmenu >ul{list-style:none;margin:0;padding:0;vertical-align:baseline;line-height:1;}
+/* The container */
+#cssmenu >ul{display:block;position:relative;}
+/* The list elements which contain the links */
+#cssmenu >ul li{display:block;position:relative;margin:0;padding:0;width:100%;}
+/* General link styling */
+#cssmenu >ul li a{
+/* Layout */
+display:block;position:relative;margin:0;border-top:1px dotted #fff;border-bottom:1px dotted #d9d9d9;padding:5px 20px;
+/* Typography */
+color:#D93E39;text-decoration:none;line-height:19px;text-shadow:0 1px 0 #fff;font-size:12px;font-weight:bold;
+/* Background & effects */
+/* background: #eaeaea; */}
+/* Rounded corners for the first link of the menu/submenus */
+#cssmenu >ul li:first-child >a{border-top-left-radius:4px;border-top-right-radius:4px;border-top:0;}
+/* Rounded corners for the last link of the menu/submenus */
+#cssmenu >ul li:last-child >a{border-bottom-left-radius:4px;border-bottom-right-radius:4px;border-bottom:0;}
+/* The hover state of the menu/submenu links */
+#cssmenu >ul li a:hover,#cssmenu >ul li:hover >a{color:#ffffff;text-shadow:0 1px 0 rgba(0,0,0,0.25);background:#f23f37;background:-webkit-linear-gradient(#f23f37,#e7180f);background:-moz-linear-gradient(#f23f37,#e7180f);background:linear-gradient(#f23f37,#e7180f);border-color:transparent;}
+/* The arrow indicating a submenu */
+#cssmenu >ul .has-sub >a::after{content: ' ';position:absolute;top:16px;right:10px;width:0px;height:0px;
+/* Creating the arrow using borders */
+border:4px solid transparent;border-left:4px solid #e4433c;}
+/* The same arrow, but with a darker color, to create the shadow effect */
+#cssmenu >ul .has-sub >a::before{content: ' ';position:absolute;top:17px;right:10px;width:0px;height:0px;
+
+/***************************Useful links *******************************************/
+
+#usefulmenu >ul{list-style:none;margin:0;padding:0;vertical-align:baseline;line-height:1;}
+/* The container */
+#usefulmenu >ul{display:block;position:relative;}
+/* The list elements which contain the links */
+#usefulmenu >ul li{display:block;position:relative;margin:0;padding:0;width:100%;}
+/* General link styling */
+#usefulmenu >ul li a{
+/* Layout */
+display:block;position:relative;margin:0;border-top:1px dotted #fff;border-bottom:1px dotted #d9d9d9;
+/* Typography */
+color:#D93E39;text-decoration:none;line-height:19px;text-shadow:0 1px 0 #fff;font-size:12px;font-weight:bold;
+/* Background & effects */
+/* background: #eaeaea; */}
+/* Rounded corners for the first link of the menu/submenus */
+#usefulmenu >ul li:first-child >a{border-top-left-radius:4px;border-top-right-radius:4px;border-top:0;}
+/* Rounded corners for the last link of the menu/submenus */
+#usefulmenu >ul li:last-child >a{border-bottom-left-radius:4px;border-bottom-right-radius:4px;border-bottom:0;}
+
+/***********************************************************************************/
+
+/* Creating the arrow using borders */
+border:4px solid transparent;border-left:4px solid #fff;}
+/* Changing the color of the arrow on hover */
+#cssmenu >ul li >a:hover::after,#cssmenu >ul li:hover >a::after{border-left:4px solid #fff;}
+#cssmenu >ul li >a:hover::before,#cssmenu >ul li:hover >a::before{border-left:4px solid rgba(0,0,0,0.25);}
+/* THE SUBMENUS */
+#cssmenu >ul ul{position:absolute;left:100%;top:-9999px;padding-left:5px;opacity:0;width:150px;
+/* The fade effect, created using an opacity transition */
+-webkit-transition:opacity 0.3s ease-in;-moz-transition:opacity 0.3s ease-in;transition:opacity 0.3s ease-in;}
+#cssmenu >ul ul li a{font-size:12px;}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 3px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
+    
+ul#horizontal-list li a{display:inline-block;outline:none;cursor:pointer;text-align:center;text-decoration:none;font:bold 14px/100% Arial,Helvetica,sans-serif;padding:5px 8px 5px 5px;color:#CF000C;}
+ul#horizontal-list li a:hover{display:inline-block;outline:none;cursor:pointer;text-align:center;text-decoration:none;font:14px/100% Arial,Helvetica,sans-serif;padding:5px 8px 5px 5px;color:#F29F9B;font-weight:bold;}/* unvisited link */
+    
+
+/* Showing the submenu when the user is hovering the parent link */
+#cssmenu >ul li:hover >ul{top:0px;opacity:1;z-index:1;}
+.col_1_absolute{float:right;margin:0px;}
+.col_1_bg{margin:0px;width:207px;background:#fff;box-shadow:0 1px 3px rgba(34,25,25,0.4);}
+.col_1_ad{margin:0px;width:185px;padding:0px 0px 0px 19px;height:600px;}
+.col_1_3_modified{background:url(../../img/hpnewhome/right-bg.png) repeat-x;box-shadow:1px 1px 5px 2px #ccc inset;}
+.col_1_absolute.fixed{position:fixed;top:0;}
+.col_1_absolute.bottom{position:fixed;bottom:98px;}
+.bordered_box{border:0px;margin:6px 0px 0px 0px;}
+.blog_post{margin:0px 0px 3px 0px;position:relative;}
+.block_post{height:125px;}
+.post_more{display:none;position:absolute;bottom:7px;right:8px;font-weight:bold;letter-spacing:1px;}
+.blog_post .right_side{width:auto;border:0px solid #cccccc;}
+.block_post:hover{background-color:#fff;cursor:pointer;}
+.blog_post a.post_title,.blog_post span.post_title{color:#D93E39;font-size:15px;text-decoration:none;font-weight:bold;}
+input,textarea{border:1px solid #CCCCCC;border-radius:3px 3px 3px 3px;color:#000000;padding:0px;}
+.button-link{background:#F17E2C;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;text-shadow:0 -1px 0 rgba(0,0,0,0.4);-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.4),0 1px 1px rgba(0,0,0,0.2);-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.4),0 1px 1px rgba(0,0,0,0.2);box-shadow:inset 0 1px 0 rgba(255,255,255,0.4),0 1px 1px rgba(0,0,0,0.2);}
+.right_box{margin-bottom:12px;padding:6px 0 7px 12px;}
+div.img{float:left;height:auto;width:15%;}
+div.img img{box-shadow:2px 3px 3px #888888;display:inline;margin:3px;}
+.video_icon{background:url(../../img/hpnewhome/player_resimyok.png);background-position:-4px -5px;}
+.side-nav{position:fixed;height:500px;width:30px;right:0px;margin-top:93px;}
+.new-right-tab-content-ul{}
+.new-right-tab-content-ul li{list-style-image:url( "../../images/triangle-icon.jpg ");line-height:20px;}
+.new-right-tab-content-ul li a{color:#fff;}
+.affiliate-btn{position:absolute;height:117px;width:30px;background:url(../../img/hpnewhome/affiliation-btn.png) no-repeat;cursor:pointer;z-index:1000;}
+.affiliate-btn-hover{cursor:pointer;background:url(../../img/hpnewhome/affiliation-btn-hover.png) no-repeat;}
+.online-poll{position:absolute;top:220px;width:30px;height:127px;z-index:700;background:url(../../img/hpnewhome/online-poll-btn.png) no-repeat;cursor:pointer;}
+.online-poll-hover{background:url(../../img/hpnewhome/online-poll-btn-hover.png) no-repeat;z-index:1001;}
+.events-btn{height:98px;width:30px;position:absolute;top:309px;z-index:600;background:url(../../img/hpnewhome/events-btn.png) no-repeat;cursor:pointer;}
+.events-btn-hover{z-index:1002;background:url(../../img/hpnewhome/events-btn-hover.png) no-repeat;}
+.hp-derectory-btn{width:30px;height:217px;position:absolute;top:36px;z-index:800;cursor:pointer;background:url(../../img/hpnewhome/hp-derectory-btn.png) no-repeat;}
+.hp-derectory-btn-hover{z-index:1003;background:url(../../img/hpnewhome/hp-derectory-btn-hover.png) no-repeat;}
+.affiliate{position:absolute;top:94px;right:30px;display:none;background:#949494;border:1px solid #F7944B;width:116px;height:auto;padding:30px 130px 30px 30px;z-index:2147483647;}
+div.activeaffiliate{background:url(../../img/hpnewhome/affiliation-btn-hover-inverse.png) no-repeat;}
+.pollpanel{position:fixed;display:none;background:#949494;border:1px solid #F7944B;width:200px;height:auto;padding:14px 86px 12px 20px;line-height:18px;z-index:2147483647;}
+div.activepoll{background:url(../../img/hpnewhome/online-poll-btn-hover-inverse.png) no-repeat;}
+.online-poll-text{font-size:12px;padding:0px 0px 0px 0px;color:#fff;}
+.online-poll-text-inner{font-size:12px;padding:0px 0px 5px 0px;color:#fff;}
+.medical-directory{position:fixed;display:none;background:#949494;border:1px solid #F7944B;width:153px;height:auto;padding:8px 118px 7px 31px;z-index:2147483647;}
+div.activemedicaldirectory{background:url(../../img/hpnewhome/hp-derectory-btn-hoverinverse.png) no-repeat;z-index:1005;}
+.slide-menu-content a,.slide-menu-content a:hover{color:#FFF;}
+.hpevents{position:absolute;display:none;background:#949494;border:1px solid #F7944B;width:153px;height:auto;padding:8px 118px 7px 31px;z-index:2147483647;}
+div.activehpevent{background:url(../../img/hpnewhome/events-btn-hover-inverse.png) no-repeat;z-index:1005;}
+.askmeQText{background-color:#F77F02;border:1px solid #FFFFFF;box-shadow:1px 1px 3px #999999;color:#FFFFFF;cursor:pointer;font-size:11px;font-weight:bold;margin-top:2px;padding:5px 10px;}
+.tabs ul li{border:0px solid #EFEFEF;
+/*  border-radius: 3px 3px 0 0; */
+float:left;margin:0 1px -2px;}
+.tabs ul li a{background:none;color:#A00307;}
+.tabs ul li a:hover{background:#CCCCCC;color:#A00307;}
+
+.tabs ul li.ui-tabs-selected a{background:#9A9A9A;color:#FFF;border-bottom:0px solid #fff;margin-bottom:-2px;}
+.ui-tabs .ui-tabs-panel{display:block;border-width:0;padding:0;margin-bottom:10px;}
+
+
+.main ul li a{background:none;color:#65686D;}
+.main ul li a:hover{color:#65686D;border-bottom:1px solid #D93E39;}
+.affiliation {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    position: relative;
+	margin: 0 0 10px 0;
+    padding: 0;
+    width: 100%;
+}
